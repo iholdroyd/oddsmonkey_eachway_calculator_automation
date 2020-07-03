@@ -49,7 +49,7 @@ while True:
 
         #autorefresh every minute
         driver.find_element_by_xpath("/html/body/form[1]/div[3]/div[1]/div[2]/div/div/div/div/div/div/div[5]/div/div[1]/div/div/div/div/ul/li[8]/div/button[2]").click()
-        time.sleep(4)
+        time.sleep(3)
         driver.find_element_by_xpath("/html/body/form[1]/div[3]/div[1]/div[2]/div/div/div/div/div/div/div[5]/div/div[1]/div/div/div/div/ul/li[8]/div/ul/li[1]/a").click()
 
         while True:
